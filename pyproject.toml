@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nlp-text-classifier"
-version = "0.1.0"
-description = "Research slice: TF-IDF baseline vs tiny from-scratch TransformerEncoder on frozen 20 Newsgroups split."
+version = "0.2.0"
+description = "Research slices: TF-IDF vs tiny Transformer vs frozen MiniLM embeddings on frozen 20 Newsgroups split."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "M.Varun" }]
@@ -16,6 +16,7 @@ dependencies = [
     "scikit-learn",
     "torch",
     "pytest",
+    "sentence-transformers",
 ]
 
 [tool.setuptools.packages.find]

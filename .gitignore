@@ -12,3 +12,6 @@ build/
 *.pt
 *.pth
 artifacts/
+.cache/
+sentence-transformers/
+**/sentence_transformers/
